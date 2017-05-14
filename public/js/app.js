@@ -19234,6 +19234,19 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -21677,7 +21690,7 @@ exports.push([module.i, "\n.width-100{\n    width:100%;\n}\n.width-25{\n    widt
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(7)();
-exports.push([module.i, "\n.bs-docs-header {\n    padding-top: 60px;\n    padding-bottom: 60px;\n    font-size: 24px;\n    text-align: left;\n    margin-bottom: 40px;\n    background-color: #6f5499;\n    color: whitesmoke;\n}\n", ""]);
+exports.push([module.i, "\n.bs-docs-header {\n    padding-top: 60px;\n    padding-bottom: 60px;\n    font-size: 24px;\n    text-align: left;\n    margin-bottom: 40px;\n    background-color: #6f5499;\n    color: whitesmoke;\n}\n.bs-docs-header p {\n    margin-bottom: 0;\n    font-weight: 300;\n    line-height: 1.4;\n}\np {\n    margin: 0 0 10px;\n}\n", ""]);
 
 /***/ }),
 /* 38 */
@@ -32378,7 +32391,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "bs-docs-header"
   }, [_c('div', {
     staticClass: "container"
-  }, [_c('h1', [_vm._v("Property Guru")])])])
+  }, [_c('h1', [_vm._v("Property Guru")]), _vm._v(" "), _c('p', [_vm._v("\n            View Files inside Applications_Root/storage/logs directory. For example : laravel.log\n        ")])])])
 }]}
 module.exports.render._withStripped = true
 if (false) {

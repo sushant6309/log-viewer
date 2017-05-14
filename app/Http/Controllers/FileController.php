@@ -26,6 +26,9 @@ class FileController extends Controller
 
     /**
      * Convert the file to string array and returns the set of 10 lines WRT pageNumber
+     *
+     * View any file in Applications_Roots/storage/logs directory.
+     *
      * @param Request $request Inputs Required are :-
      * File Location : String, start Flag : String, End Flag : String, pageNumber : Integer
      * @return array|string
